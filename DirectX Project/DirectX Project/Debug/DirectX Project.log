@@ -1,0 +1,69 @@
+﻿  Dx11Demo_02.cpp
+  GraphicsClass.cpp
+  InputClass.cpp
+  stdafx.cpp
+  SystemClass.cpp
+  코드를 생성하고 있습니다...
+SystemClass.obj : error LNK2019: __imp__GetModuleHandleW@4 외부 기호(참조 위치: "private: void __thiscall SystemClass::InitializeWindows(int &,int &)" (?InitializeWindows@SystemClass@@AAEXAAH0@Z) 함수)에서 확인하지 못했습니다.
+MSVCRTD.lib(utility_desktop.obj) : error LNK2001: __imp__GetModuleHandleW@4 외부 기호를 확인할 수 없습니다.
+SystemClass.obj : error LNK2019: __imp__GetStockObject@4 외부 기호(참조 위치: "private: void __thiscall SystemClass::InitializeWindows(int &,int &)" (?InitializeWindows@SystemClass@@AAEXAAH0@Z) 함수)에서 확인하지 못했습니다.
+SystemClass.obj : error LNK2019: __imp__TranslateMessage@4 외부 기호(참조 위치: "public: void __thiscall SystemClass::Run(void)" (?Run@SystemClass@@QAEXXZ) 함수)에서 확인하지 못했습니다.
+SystemClass.obj : error LNK2019: __imp__DispatchMessageW@4 외부 기호(참조 위치: "public: void __thiscall SystemClass::Run(void)" (?Run@SystemClass@@QAEXXZ) 함수)에서 확인하지 못했습니다.
+SystemClass.obj : error LNK2019: __imp__PeekMessageW@20 외부 기호(참조 위치: "public: void __thiscall SystemClass::Run(void)" (?Run@SystemClass@@QAEXXZ) 함수)에서 확인하지 못했습니다.
+SystemClass.obj : error LNK2019: __imp__DefWindowProcW@16 외부 기호(참조 위치: "public: long __stdcall SystemClass::MessageHandler(struct HWND__ *,unsigned int,unsigned int,long)" (?MessageHandler@SystemClass@@QAGJPAUHWND__@@IIJ@Z) 함수)에서 확인하지 못했습니다.
+SystemClass.obj : error LNK2019: __imp__PostQuitMessage@4 외부 기호(참조 위치: "long __stdcall WndProc(struct HWND__ *,unsigned int,unsigned int,long)" (?WndProc@@YGJPAUHWND__@@IIJ@Z) 함수)에서 확인하지 못했습니다.
+SystemClass.obj : error LNK2019: __imp__UnregisterClassW@8 외부 기호(참조 위치: "private: void __thiscall SystemClass::ShutdownWindows(void)" (?ShutdownWindows@SystemClass@@AAEXXZ) 함수)에서 확인하지 못했습니다.
+SystemClass.obj : error LNK2019: __imp__RegisterClassExW@4 외부 기호(참조 위치: "private: void __thiscall SystemClass::InitializeWindows(int &,int &)" (?InitializeWindows@SystemClass@@AAEXAAH0@Z) 함수)에서 확인하지 못했습니다.
+SystemClass.obj : error LNK2019: __imp__CreateWindowExW@48 외부 기호(참조 위치: "private: void __thiscall SystemClass::InitializeWindows(int &,int &)" (?InitializeWindows@SystemClass@@AAEXAAH0@Z) 함수)에서 확인하지 못했습니다.
+SystemClass.obj : error LNK2019: __imp__DestroyWindow@4 외부 기호(참조 위치: "private: void __thiscall SystemClass::ShutdownWindows(void)" (?ShutdownWindows@SystemClass@@AAEXXZ) 함수)에서 확인하지 못했습니다.
+SystemClass.obj : error LNK2019: __imp__ShowWindow@8 외부 기호(참조 위치: "private: void __thiscall SystemClass::InitializeWindows(int &,int &)" (?InitializeWindows@SystemClass@@AAEXAAH0@Z) 함수)에서 확인하지 못했습니다.
+SystemClass.obj : error LNK2019: __imp__SetFocus@4 외부 기호(참조 위치: "private: void __thiscall SystemClass::InitializeWindows(int &,int &)" (?InitializeWindows@SystemClass@@AAEXAAH0@Z) 함수)에서 확인하지 못했습니다.
+SystemClass.obj : error LNK2019: __imp__GetSystemMetrics@4 외부 기호(참조 위치: "private: void __thiscall SystemClass::InitializeWindows(int &,int &)" (?InitializeWindows@SystemClass@@AAEXAAH0@Z) 함수)에서 확인하지 못했습니다.
+SystemClass.obj : error LNK2019: __imp__SetForegroundWindow@4 외부 기호(참조 위치: "private: void __thiscall SystemClass::InitializeWindows(int &,int &)" (?InitializeWindows@SystemClass@@AAEXAAH0@Z) 함수)에서 확인하지 못했습니다.
+SystemClass.obj : error LNK2019: __imp__LoadCursorW@8 외부 기호(참조 위치: "private: void __thiscall SystemClass::InitializeWindows(int &,int &)" (?InitializeWindows@SystemClass@@AAEXAAH0@Z) 함수)에서 확인하지 못했습니다.
+SystemClass.obj : error LNK2019: __imp__LoadIconW@8 외부 기호(참조 위치: "private: void __thiscall SystemClass::InitializeWindows(int &,int &)" (?InitializeWindows@SystemClass@@AAEXAAH0@Z) 함수)에서 확인하지 못했습니다.
+SystemClass.obj : error LNK2019: __imp__ChangeDisplaySettingsW@8 외부 기호(참조 위치: "private: void __thiscall SystemClass::InitializeWindows(int &,int &)" (?InitializeWindows@SystemClass@@AAEXAAH0@Z) 함수)에서 확인하지 못했습니다.
+MSVCRTD.lib(debugger_jmc.obj) : error LNK2019: __imp__GetCurrentThreadId@0 외부 기호(참조 위치: @__CheckForDebuggerJustMyCode@4 함수)에서 확인하지 못했습니다.
+MSVCRTD.lib(gs_support.obj) : error LNK2001: __imp__GetCurrentThreadId@0 외부 기호를 확인할 수 없습니다.
+MSVCRTD.lib(error.obj) : error LNK2019: __imp__IsDebuggerPresent@0 외부 기호(참조 위치: "void __cdecl failwithmessage(void *,int,int,char const *)" (?failwithmessage@@YAXPAXHHPBD@Z) 함수)에서 확인하지 못했습니다.
+MSVCRTD.lib(utility_desktop.obj) : error LNK2001: __imp__IsDebuggerPresent@0 외부 기호를 확인할 수 없습니다.
+MSVCRTD.lib(error.obj) : error LNK2019: __imp__RaiseException@16 외부 기호(참조 위치: "void __cdecl notify_debugger(struct tagEXCEPTION_VISUALCPP_DEBUG_INFO const &)" (?notify_debugger@@YAXABUtagEXCEPTION_VISUALCPP_DEBUG_INFO@@@Z) 함수)에서 확인하지 못했습니다.
+MSVCRTD.lib(error.obj) : error LNK2019: __imp__MultiByteToWideChar@24 외부 기호(참조 위치: "void __cdecl failwithmessage(void *,int,int,char const *)" (?failwithmessage@@YAXPAXHHPBD@Z) 함수)에서 확인하지 못했습니다.
+MSVCRTD.lib(error.obj) : error LNK2019: __imp__WideCharToMultiByte@32 외부 기호(참조 위치: "void __cdecl failwithmessage(void *,int,int,char const *)" (?failwithmessage@@YAXPAXHHPBD@Z) 함수)에서 확인하지 못했습니다.
+MSVCRTD.lib(gs_report.obj) : error LNK2019: __imp__UnhandledExceptionFilter@4 외부 기호(참조 위치: ___raise_securityfailure 함수)에서 확인하지 못했습니다.
+MSVCRTD.lib(utility_desktop.obj) : error LNK2001: __imp__UnhandledExceptionFilter@4 외부 기호를 확인할 수 없습니다.
+MSVCRTD.lib(gs_report.obj) : error LNK2019: __imp__SetUnhandledExceptionFilter@4 외부 기호(참조 위치: ___raise_securityfailure 함수)에서 확인하지 못했습니다.
+MSVCRTD.lib(utility_desktop.obj) : error LNK2001: __imp__SetUnhandledExceptionFilter@4 외부 기호를 확인할 수 없습니다.
+MSVCRTD.lib(gs_report.obj) : error LNK2019: __imp__GetCurrentProcess@0 외부 기호(참조 위치: ___raise_securityfailure 함수)에서 확인하지 못했습니다.
+MSVCRTD.lib(gs_report.obj) : error LNK2019: __imp__TerminateProcess@8 외부 기호(참조 위치: ___raise_securityfailure 함수)에서 확인하지 못했습니다.
+MSVCRTD.lib(gs_report.obj) : error LNK2019: _IsProcessorFeaturePresent@4 외부 기호(참조 위치: ___report_gsfailure 함수)에서 확인하지 못했습니다.
+MSVCRTD.lib(utility_desktop.obj) : error LNK2001: _IsProcessorFeaturePresent@4 외부 기호를 확인할 수 없습니다.
+MSVCRTD.lib(cpu_disp.obj) : error LNK2001: _IsProcessorFeaturePresent@4 외부 기호를 확인할 수 없습니다.
+MSVCRTD.lib(gs_support.obj) : error LNK2019: __imp__QueryPerformanceCounter@4 외부 기호(참조 위치: ___get_entropy 함수)에서 확인하지 못했습니다.
+MSVCRTD.lib(gs_support.obj) : error LNK2019: __imp__GetCurrentProcessId@0 외부 기호(참조 위치: ___get_entropy 함수)에서 확인하지 못했습니다.
+MSVCRTD.lib(gs_support.obj) : error LNK2019: __imp__GetSystemTimeAsFileTime@4 외부 기호(참조 위치: ___get_entropy 함수)에서 확인하지 못했습니다.
+MSVCRTD.lib(tncleanup.obj) : error LNK2019: __imp__InitializeSListHead@4 외부 기호(참조 위치: "void __cdecl __scrt_initialize_type_info(void)" (?__scrt_initialize_type_info@@YAXXZ) 함수)에서 확인하지 못했습니다.
+MSVCRTD.lib(utility_desktop.obj) : error LNK2019: __imp__GetStartupInfoW@4 외부 기호(참조 위치: ___scrt_get_show_window_mode 함수)에서 확인하지 못했습니다.
+MSVCRTD.lib(pdblkup.obj) : error LNK2019: __imp__GetLastError@0 외부 기호(참조 위치: "struct HINSTANCE__ * __cdecl GetPdbDll(void)" (?GetPdbDll@@YAPAUHINSTANCE__@@XZ) 함수)에서 확인하지 못했습니다.
+MSVCRTD.lib(pdblkup.obj) : error LNK2019: __imp__HeapAlloc@12 외부 기호(참조 위치: "int __cdecl _RTC_GetSrcLine(unsigned char *,wchar_t *,unsigned long,int *,wchar_t *,unsigned long)" (?_RTC_GetSrcLine@@YAHPAEPA_WKPAH1K@Z) 함수)에서 확인하지 못했습니다.
+MSVCRTD.lib(pdblkup.obj) : error LNK2019: __imp__HeapFree@12 외부 기호(참조 위치: "int __cdecl _RTC_GetSrcLine(unsigned char *,wchar_t *,unsigned long,int *,wchar_t *,unsigned long)" (?_RTC_GetSrcLine@@YAHPAEPA_WKPAH1K@Z) 함수)에서 확인하지 못했습니다.
+MSVCRTD.lib(pdblkup.obj) : error LNK2019: __imp__GetProcessHeap@0 외부 기호(참조 위치: "int __cdecl _RTC_GetSrcLine(unsigned char *,wchar_t *,unsigned long,int *,wchar_t *,unsigned long)" (?_RTC_GetSrcLine@@YAHPAEPA_WKPAH1K@Z) 함수)에서 확인하지 못했습니다.
+MSVCRTD.lib(pdblkup.obj) : error LNK2019: __imp__VirtualQuery@12 외부 기호(참조 위치: "int __cdecl _RTC_GetSrcLine(unsigned char *,wchar_t *,unsigned long,int *,wchar_t *,unsigned long)" (?_RTC_GetSrcLine@@YAHPAEPA_WKPAH1K@Z) 함수)에서 확인하지 못했습니다.
+MSVCRTD.lib(pdblkup.obj) : error LNK2019: __imp__FreeLibrary@4 외부 기호(참조 위치: "struct HINSTANCE__ * __cdecl GetPdbDllFromInstallPath(void)" (?GetPdbDllFromInstallPath@@YAPAUHINSTANCE__@@XZ) 함수)에서 확인하지 못했습니다.
+MSVCRTD.lib(pdblkup.obj) : error LNK2019: __imp__GetProcAddress@8 외부 기호(참조 위치: "struct HINSTANCE__ * __cdecl GetPdbDllFromInstallPath(void)" (?GetPdbDllFromInstallPath@@YAPAUHINSTANCE__@@XZ) 함수)에서 확인하지 못했습니다.
+C:\Program Files (x86)\Windows Kits\10\lib\10.0.17763.0\um\x64\dxgi.lib : warning LNK4272: 'x64' 라이브러리 컴퓨터 종류가 'x86' 대상 컴퓨터 종류와 충돌합니다.
+C:\Program Files (x86)\Windows Kits\10\lib\10.0.17763.0\um\x64\dxguid.lib : warning LNK4272: 'x64' 라이브러리 컴퓨터 종류가 'x86' 대상 컴퓨터 종류와 충돌합니다.
+C:\Program Files (x86)\Windows Kits\10\lib\10.0.17763.0\um\x64\d3d11.lib : warning LNK4272: 'x64' 라이브러리 컴퓨터 종류가 'x86' 대상 컴퓨터 종류와 충돌합니다.
+C:\Program Files (x86)\Windows Kits\10\lib\10.0.17763.0\um\x64\kernel32.lib : warning LNK4272: 'x64' 라이브러리 컴퓨터 종류가 'x86' 대상 컴퓨터 종류와 충돌합니다.
+C:\Program Files (x86)\Windows Kits\10\lib\10.0.17763.0\um\x64\user32.lib : warning LNK4272: 'x64' 라이브러리 컴퓨터 종류가 'x86' 대상 컴퓨터 종류와 충돌합니다.
+C:\Program Files (x86)\Windows Kits\10\lib\10.0.17763.0\um\x64\gdi32.lib : warning LNK4272: 'x64' 라이브러리 컴퓨터 종류가 'x86' 대상 컴퓨터 종류와 충돌합니다.
+C:\Program Files (x86)\Windows Kits\10\lib\10.0.17763.0\um\x64\winspool.lib : warning LNK4272: 'x64' 라이브러리 컴퓨터 종류가 'x86' 대상 컴퓨터 종류와 충돌합니다.
+C:\Program Files (x86)\Windows Kits\10\lib\10.0.17763.0\um\x64\comdlg32.lib : warning LNK4272: 'x64' 라이브러리 컴퓨터 종류가 'x86' 대상 컴퓨터 종류와 충돌합니다.
+C:\Program Files (x86)\Windows Kits\10\lib\10.0.17763.0\um\x64\advapi32.lib : warning LNK4272: 'x64' 라이브러리 컴퓨터 종류가 'x86' 대상 컴퓨터 종류와 충돌합니다.
+C:\Program Files (x86)\Windows Kits\10\lib\10.0.17763.0\um\x64\shell32.lib : warning LNK4272: 'x64' 라이브러리 컴퓨터 종류가 'x86' 대상 컴퓨터 종류와 충돌합니다.
+C:\Program Files (x86)\Windows Kits\10\lib\10.0.17763.0\um\x64\ole32.lib : warning LNK4272: 'x64' 라이브러리 컴퓨터 종류가 'x86' 대상 컴퓨터 종류와 충돌합니다.
+C:\Program Files (x86)\Windows Kits\10\lib\10.0.17763.0\um\x64\oleaut32.lib : warning LNK4272: 'x64' 라이브러리 컴퓨터 종류가 'x86' 대상 컴퓨터 종류와 충돌합니다.
+C:\Program Files (x86)\Windows Kits\10\lib\10.0.17763.0\um\x64\uuid.lib : warning LNK4272: 'x64' 라이브러리 컴퓨터 종류가 'x86' 대상 컴퓨터 종류와 충돌합니다.
+C:\Program Files (x86)\Windows Kits\10\lib\10.0.17763.0\um\x64\odbc32.lib : warning LNK4272: 'x64' 라이브러리 컴퓨터 종류가 'x86' 대상 컴퓨터 종류와 충돌합니다.
+C:\Program Files (x86)\Windows Kits\10\lib\10.0.17763.0\um\x64\odbccp32.lib : warning LNK4272: 'x64' 라이브러리 컴퓨터 종류가 'x86' 대상 컴퓨터 종류와 충돌합니다.
+C:\Users\Cpp\source\repos\DirectX Project\Debug\DirectX Project.exe : fatal error LNK1120: 40개의 확인할 수 없는 외부 참조입니다.
